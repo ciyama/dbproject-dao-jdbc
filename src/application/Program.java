@@ -42,7 +42,7 @@ public class Program {
 		System.out.println("====== FIM TEST 3 =======");
 		System.out.println();
 		
-		System.out.println("====== TEST 4: seller findAll =======");
+		System.out.println("====== TEST 4: seller insert =======");
 		
 		Seller newSeller = new Seller(null, "Celio", "celio@teste.com", new Date(), 4000.0, department);
 		sellerDao.insert(newSeller);
