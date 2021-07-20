@@ -22,5 +22,13 @@ public class Program2 {
 		System.out.println("====== FIM TEST 4 =======");
 		System.out.println();
 		
+		System.out.println("====== TEST 2: department findById =======");
+		
+		Department department = departmentDao.findById(2);
+		System.out.println("Department findById id: " + department);
+			
+		System.out.println("====== FIM TEST 4 =======");
+		System.out.println();
+		
 	}
 }

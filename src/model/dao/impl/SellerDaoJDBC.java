@@ -148,7 +148,6 @@ public class SellerDaoJDBC implements SellerDao {
 		Department dep = new Department();
 		dep.setId(rs.getInt("DepartmentId"));
 		dep.setName(rs.getString("DeptName"));
-		;
 		return dep;
 	}
 
