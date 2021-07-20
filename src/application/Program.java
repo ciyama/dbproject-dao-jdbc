@@ -29,6 +29,15 @@ public class Program {
 		}
 		System.out.println("====== FIM TEST 2 =======");
 		System.out.println();
+	
+		System.out.println("====== TEST 3: seller findAll =======");
+		
+		list = sellerDao.findAll();
+		for (Seller obj : list) {
+			System.out.println(obj);
+		}
+		System.out.println("====== FIM TEST 3 =======");
+		System.out.println();
 		
 	}
 
